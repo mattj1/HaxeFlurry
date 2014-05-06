@@ -4,11 +4,8 @@ import cpp.Lib;
 import flash.events.Event;
 import flash.events.EventDispatcher;
 
-class Chartboost extends EventDispatcher
+class Flurry extends EventDispatcher
 {
-
-
-
 	/*
 		// These must/should be called before startSession
 
