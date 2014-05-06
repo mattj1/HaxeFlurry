@@ -5,7 +5,8 @@ namespace flurry
 {   
     extern "C"
     {   
-        
+        void Flurry_startSession(const char *apiKey);
+        void Flurry_logEvent(const char *eventName);
     }
 }
 
